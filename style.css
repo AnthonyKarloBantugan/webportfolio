@@ -1,0 +1,60 @@
+:root {
+  --primary: #1c5967;
+  --secondary: #3f97a3;
+  --light: #38b4c6;
+  --brown: #cdb08a;
+  --light-brown: #dadccb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./img/web-design-gf64d8c10b_1920.jpeg);
+}
+
+#showcase .container {
+  height: 1000px;
+}
+
+.menu-bar {
+  padding-top: 30px;
+}
+.navbar {
+  padding: 20px;
+}
+.fa-laptop-code {
+  font-size: 5rem;
+}
+
+.socials i {
+  color: #fff;
+  font-size: 2rem;
+  padding: 10px;
+}
+
+.socials a {
+  text-decoration: none;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 1rem;
+  margin-right: 10px;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid var(--secondary);
+}
+.btn {
+  border: outset;
+  border-radius: 5px;
+}
+.btn:hover {
+  font-weight: bold;
+}
