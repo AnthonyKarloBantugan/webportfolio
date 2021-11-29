@@ -358,6 +358,9 @@ li {
 .about-btn {
 	min-width: 170px;
 }
+.about-btn a{
+  padding:0;
+}
 
 .custom-border-line:last-of-type {
 	margin-top: 20px;
