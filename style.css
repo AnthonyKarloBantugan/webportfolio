@@ -11,8 +11,13 @@
 	box-sizing: border-box;
 }
 
+html {
+	overflow-x: hidden;
+}
+
 body {
 	font-family: "Open Sans", sans-serif;
+	overflow-x: hidden;
 }
 
 h1,
@@ -112,7 +117,7 @@ li {
 }
 
 /* HOME SECTION */
-#home {
+/* #home {
 	background-image: url(./img/bg-image.jpeg);
 	background-size: cover;
 }
@@ -254,7 +259,7 @@ li {
 
 .socials li a {
 	color: #fff;
-}
+} */
 
 /* ABOUT ME SECTION */
 #about {
