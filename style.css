@@ -117,7 +117,7 @@ li {
 }
 
 /* HOME SECTION */
-/* #home {
+ #home {
 	background-image: url(./img/bg-image.jpeg);
 	background-size: cover;
 }
@@ -127,6 +127,7 @@ li {
 	width: 100%;
 	height: 100%;
 }
+
 
 .display-table {
 	display: table;
@@ -259,7 +260,7 @@ li {
 
 .socials li a {
 	color: #fff;
-} */
+}
 
 /* ABOUT ME SECTION */
 #about {
