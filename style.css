@@ -306,7 +306,7 @@ li {
   margin: 0;
 }
 
-.main-title ::before {
+.main-title::before {
   content: "";
   position: absolute;
   bottom: -12px;
@@ -416,6 +416,7 @@ li {
 
 #projects .row .card {
   background: #2b3d4f;
+  margin: 0 !important;
 }
 
 .projects-btn {
@@ -627,8 +628,13 @@ footer p-width {
     margin: 0;
   }
 }
+/* @media only screen and (max-width: 575px) {
+  .custom-main-title {
+    right: 5rem;
+  }
+} */
 
-@media only screen and (max-width: 767.98px) {
+/* @media only screen and (max-width: 767.98px) {
   .navbar {
     padding-bottom: 0 !important;
   }
@@ -660,7 +666,7 @@ footer p-width {
   #contacts form button {
     margin-left: 150px;
   }
-}
+} */
 
 @media only screen and (min-width: 934px) {
   .socials-2 {
