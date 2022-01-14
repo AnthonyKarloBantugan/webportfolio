@@ -486,7 +486,8 @@ li {
   position: absolute;
   top: 8px;
   left: 11px;
-  font-size: 60px;
+  /* font-size: 60px; */
+  font-size: clamp(2.5rem, 5vw + 1rem, 4rem);
   transform: rotate(-18deg);
   opacity: 0.12;
   color: #5e7184;
@@ -581,9 +582,9 @@ li {
 /* FOOTER */
 footer {
   background: rgb(38, 52, 70);
-  margin-top: 20px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+}
+footer .container {
+  margin: 0;
 }
 
 footer .socials-footer i {
@@ -629,45 +630,6 @@ footer p-width {
     margin: 0;
   }
 }
-/* @media only screen and (max-width: 575px) {
-  .custom-main-title {
-    right: 5rem;
-  }
-} */
-
-/* @media only screen and (max-width: 767.98px) {
-  .navbar {
-    padding-bottom: 0 !important;
-  }
-  .nav-link:hover {
-    border-bottom: none !important;
-  }
-
-  .about-image img {
-    padding-left: 15px;
-  }
-
-  .about-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #projects .container .row .card {
-    margin: 0 auto;
-  }
-  #projects .container .main-title {
-    margin-left: 150px;
-  }
-
-  #contacts .container .main-title {
-    margin-left: 170px;
-  }
-
-  #contacts form button {
-    margin-left: 150px;
-  }
-} */
 
 @media only screen and (min-width: 934px) {
   .socials-2 {
