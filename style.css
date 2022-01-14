@@ -416,7 +416,8 @@ li {
 
 #projects .row .card {
   background: #2b3d4f;
-  margin: 0 !important;
+  margin: auto;
+  width: 18rem;
 }
 
 .projects-btn {
